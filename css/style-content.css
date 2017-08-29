@@ -1,0 +1,243 @@
+.content-droit{
+  position: fixed;
+  left: 50%;
+  overflow: scroll;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h2{
+  color: white;
+}
+h3{
+  color: white;
+}
+p{
+  color: white;
+}
+.logo{
+  margin-top: 70px;
+  margin-left:150px;
+  margin-bottom: 150px;
+}
+
+/*.premier-block{
+  margin-top: 50px;
+  margin-left: 70px;
+}*/
+
+.deuxieme-titre{
+  margin-bottom: 50px;
+}
+
+.troisieme-titre{
+  margin-top: 200px;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: #cdcb35;
+}
+.contenu-gauche{
+  position: fixed;
+  background: url("../img/pomset/backgroundg.png");
+  width: 50%;
+  height: 100%;
+  background-position: left;
+  overflow: scroll;
+}
+
+.btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 25px;
+}
+.btn2{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin: 25px;
+}
+
+.btn:hover{
+  background: #cdcb35;
+}
+
+.img-droite{
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right:0;
+
+}
+
+.container-fluid{
+  padding-left: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .contenu-gauche{
+    position: fixed;
+    background: url("../img/pomset/backgroundg.png");
+    width: 100%;
+    height: 100%;
+    background-position: left;
+
+    overflow: scroll;
+  }
+
+}
+
+
+/* ---------------------------volet laterale---------------------------------------*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+@media screen and (max-height: 800px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* ---------------------------fin volet laterale---------------------------------------*/
+
+.text-noir{
+  color: #333333;
+}
+
+.trait::after{
+  content: "";
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin-top: 20px;
+  background-color: grey;
+}
+
+.container{
+  width: 100%;
+}
+
+.premier-titre{
+  position: absolute;
+  right: 6px;
+  top:10px;
+}
+
+.ecart{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.separation::after{
+  content: "";
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  background-color: grey;
+}
+
+.textcolor{
+  color: #aa253b;
+}
+
+.btn-envoyer{
+  margin-left: 50px;
+  background-color: darkblue;
+
+}
+.survol:hover{
+  color: darkblue;
+}
+
+.deuxieme-trait::after{
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: grey;
+  opacity: 0.2;
+  margin-bottom: 5px;
+}
+
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+
+.email{
+  margin-left:10px;
+}
+
+.message{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.form-control{
+  border-radius: 10px;
+}
+
+
+.site{
+  font-size: 20px;
+}
+
+.site:hover{
+  color: #cdcb35;
+}
+
+.marge{
+  margin-top: 100px;
+}
