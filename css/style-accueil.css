@@ -38,16 +38,16 @@ p{
 }
 
 a:visited{
-  text-decoration: none !important;
+  color: white !important;
 }
 
 a:link{
-  text-decoration: none !important;
-  color: white;
+  text-decoration: none;
+  color: white !important;
 }
 
 a:hover{
-  color: #cdcb35;
+  color: #cdcb35 !important;
 }
 .contenu-gauche{
   position: fixed;

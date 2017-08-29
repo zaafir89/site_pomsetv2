@@ -24,12 +24,12 @@
       </div>
       <div class="row premier-block">
         <div class="col-xs-10 col-xs-offset-1">
-          <h3 class="pacifico">Agence de communication, mais pas que...</h3>
+          <h3 class="pacifico texte">Agence de communication, mais pas que...</h3>
         </div>
 
 
         <div class="col-xs-10 col-xs-offset-1 deuxieme-titre">
-          <h3><strong>parce qu'une bonne idée <br/>
+          <h3 class="texte"><strong>parce qu'une bonne idée <br/>
             peut vivre partout...</strong></h3>
           </div>
 
@@ -41,15 +41,15 @@
             <a href="areas.php"><button type="button" class="btn btn-lg">une idée performante</button></a>
           </div>
           <div class="col-lg-4 col-lg-offset-1 col-xs-12">
-            <a href="aviva.php"><button type="button" class="btn btn-lg btn2">une idée lab</button></a>
-            <a href="adp.php"><button type="button" class="btn btn-lg">une idée génératrice</button></a>
+            <a href="adp.php"><button type="button" class="btn btn-lg btn2">une idée lab</button></a>
+            <a href="aviva.php"><button type="button" class="btn btn-lg">une idée génératrice</button></a>
           </div>
         </div>
 
 
         <div class="row marge">
           <div class="col-xs-4 col-xs-offset-1">
-            <p class="site">On garde le contact</p>
+            <p class="site texte">On garde le contact</p>
           </div>
           <div class="col-xs-3 col-xs-offset-1">
             <a href="https://fr-fr.facebook.com/agence.pomset" target="_blank"><img src="img/pomset/picto/fb.png" alt="picto document"></a>
@@ -64,5 +64,5 @@
       </div>
       <script src="js/bootstrap.min.js"> </script>
       <script src="js/script.js"> </script>
-    </body>
-    </html>
+  </body>
+  </html>

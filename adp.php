@@ -1,5 +1,10 @@
 <?php include'layout.php' ?>
 
+<html>
+<body>
+
 <div class="content-droit">
-  adp
+  <p>adp</p>
 </div>
+</body>
+</html>

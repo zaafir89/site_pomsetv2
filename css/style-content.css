@@ -1,20 +1,16 @@
+
+
 .content-droit{
-  position: fixed;
   left: 50%;
-  overflow: scroll;
+  height: auto;
   font-family: 'Raleway', sans-serif;
 
 }
 
-h2{
+.texte{
   color: white;
 }
-h3{
-  color: white;
-}
-p{
-  color: white;
-}
+
 .logo{
   margin-top: 70px;
   margin-left:150px;
@@ -35,12 +31,12 @@ p{
 }
 
 a:visited{
-  text-decoration: none;
+  color: white !important;
 }
 
 a:link{
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+  color: white !important;
 }
 
 a:hover{
