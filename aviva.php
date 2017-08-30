@@ -1,10 +1,7 @@
 <?php include'layout.php' ?>
-<html>
-<body>
+
 <div class="content-droit">
-  <p>aviva</p>
+  <p class="text-noir">aviva</p>
 
 
 </div>
-</body>
-</html>

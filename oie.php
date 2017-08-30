@@ -3,20 +3,15 @@
 <div class="content-droit">
 
 
-      <p class="text-noir premier-titre">une idée 360°/ OIE rapport annuel 2017</p>
-<!--
-      <span class="deuxieme-trait"></span>
+  <p class=" premier-titre">une idée 360°/ OIE rapport annuel 2017</p>
 
-      <div class="container">
+  <a href="index.php"<button type="submit" class="btn3 btn-envoyer right">fermer</button></a>
+  <div class="container">
 
-        <div class="row">
-          <div class="col-lg-12">
-            <img src="img/pomset/default/a.jpg" class="img-responsive" alt="work"/>
-          </div>
-        </div>
-
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
+        <img src="img/pomset/default/g.jpg" class="img-responsive" alt="work"/>
         <h2 class="trait text-noir">Titre mot <strong>double</strong> ou pas.</h2>
-
         <h3 class="text-noir"><strong>Le challenge</strong></h3>
         <p class="text-noir">
           Customers love our block-based approach to template building,
@@ -34,81 +29,117 @@
           <li>Web flyer</li>
           <li>Un mini site</li>
         </ul>
+      </div>
 
+    </div>
 
-        <div class="col-lg-6 col-xs-12">
-          <img src="img/pomset/default/b.jpg" class="img-responsive" alt="work"/>
-        </div>
-        <div class="col-lg-6 col-xs-12">
-          <img src="img/pomset/default/c.jpg" class="img-responsive" alt="work"/>
-        </div>
-
-        <div class="col-xs-12 ecart">
-          <img src="img/pomset/default/d.jpg" class="img-responsive" alt="work"/>
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
+        <div class="col-sm-6 col-xs-12">
+          <img src="img/pomset/default/test.jpg" class="img-responsive" alt="work"/>
         </div>
 
-        <div class="col-xs-12 ecart">
-          <img src="img/pomset/default/e.jpg" class="img-responsive" alt="work"/>
+        <div class="col-sm-6 col-xs-12">
+          <img src="img/pomset/default/test.jpg" class="img-responsive" alt="work"/>
+        </div>
+      </div>
+
+    </div>
+    <span class="ecart"></span>
+
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
+        <img src="img/pomset/default/g.jpg" class="img-responsive ecart" alt="work"/>
+      </div>
+
+    </div>
+
+  </div>
+  <!--fin du container-->
+  <div class="container bg">
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
+        <img src="img/pomset/default/h.jpg" class="img-responsive" alt="work"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="container bg2">
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
+        <img src="img/pomset/default/h.jpg" class="img-responsive" alt="work"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-xs-offset-6 col-xs-6 ecart">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/131777654?title=0&byline=0&portrait=0"></iframe>
+      </div>
+
+
+    </div>
+
+  </div>
+  <div class="col-xs-offset-6 col-xs-3">
+    <span class="separation"></span>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
+        <div class="col-sm-6 col-xs-12">
+          <h3 class="text-noir"><strong>Les chiffres</strong></h3>
+          <h2 class="text-noir"><strong><span class="textcolor">DOLOR</span></strong></h2>
+          <p class="text-noir">Lorem ipsum sit mata</p>
         </div>
 
-        <div class="col-xs-12 ecart">
-          <img src="img/pomset/default/f.jpg" class="img-responsive" alt="work"/>
+
+        <div class="col-sm-6 col-xs-12">
+          <h3 class="texte"><strong>test</strong></h3>
+          <h2 class="text-noir"><strong><span class="textcolor">45 MIN</span></strong></h2>
+          <p class="text-noir">Lorem ipsum sit mata</p>
         </div>
-        <div class="col-xs-12 ecart">
-          <iframe src="https://player.vimeo.com/video/131777654?title=0&byline=0&portrait=0" width="640" height="360"></iframe>
-        </div>
+      </div>
 
+    </div>
+    <div class="col-xs-offset-6 col-xs-3">
+      <span class="separation"></span>
+    </div>
 
-        <span class="separation"></span>
-        <div class="row">
-          <div class="col-lg-6 col-sm-6 col-xs-12 col-lg-offset-1 col-xs-offset-1">
-            <h3 class="text-noir"><strong>Les chiffres</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">DOLOR</span></strong></h2>
-            <p class="text-noir">Lorem ipsum sit mata</p>
-          </div>
-          <div class="col-lg-4 col-sm-6 col-xs-12 col-xs-offset-1 ecart2">
-            <h2 class="text-noir"><strong><span class="textcolor">45 MIN</span></strong></h2>
-            <p class="text-noir">Lorem ipsum sit mata</p>
-          </div>
-        </div>
-
-        <span class="separation"></span>
-
-
-
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-offset-6 col-xs-6">
         <div>
           <h2 class="text-noir"><strong>Cela vous</strong> <em>intéresse?</em><br> Contactez nous et nous reviendrons vers vous très vite!</h2>
         </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-3">
-              <p class="text-noir">
-                <strong>Addresse :</strong> <br>
-                24 Rue Carle Hebert, <br>
-                92400 Courbevoie <br>
-              </p>
-              <p class="text-noir"><strong>Téléphone: </strong><br>  (+33) 1 47 58 14 31<br> <br></p>
-            </div>
-            <div class="col-lg-7">
-              <form class="form-inline">
-                <div class="form-group">
 
-                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Nom">
+        <div class="row">
+          <div class="col-xs-3">
+            <p class="text-noir">
+              <strong>Addresse :</strong> <br>
+              24 Rue Carle Hebert, <br>
+              92400 Courbevoie <br>
+            </p>
+            <p class="text-noir"><strong>Téléphone: </strong><br>  (+33) 1 47 58 14 31<br> <br></p>
+          </div>
+          <div class="col-xs-9">
+            <form class="form-inline">
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Nom">
+                <input type="email" class="form-control email" id="exampleInputEmail2" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control message" rows="6" cols="60" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn-envoyer right">envoyer</button>
+              </div>
 
-
-                  <input type="email" class="form-control email" id="exampleInputEmail2" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control message" rows="6" cols="45" placeholder="message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-envoyer">envoyer</button>
-              </form>
-
-            </div>
-
+            </form>
           </div>
         </div>
-      </div>
- -->
 
+      </div>
+    </div>
+  </div>
 </div>
