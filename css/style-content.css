@@ -1,9 +1,10 @@
 
 
 .content-droit{
-  left: 50%;
+left: 50%;
   height: auto;
   font-family: 'Raleway', sans-serif;
+
 }
 
 @media screen and (max-width: 500px) {
@@ -118,9 +119,6 @@ a:hover{
 
 }
 
-
-
-
 .text-noir{
   color: #333333;
 }
@@ -152,8 +150,14 @@ a:hover{
 }
 
 .col-sm-6{
-  padding: 1px !important;
+  padding: 9px !important;
 }
+
+.col-xs-offset-7{
+  padding:0px !important;
+
+}
+
 
 
 .separation::after{
@@ -243,4 +247,13 @@ textarea {
 
 .right{
   float: right;
+}
+
+.container{
+  padding-left: 240px !important;
+  padding-right: 90px !important;
+}
+
+.ecart1{
+  margin-top: 80px;
 }
