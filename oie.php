@@ -1,5 +1,5 @@
 <?php include'layout.php'; ?>
-  <title>Oie | Pomset</title>
+
 <div class="content-droit">
   <div class="container-">
 
@@ -147,7 +147,7 @@
 
         </div>
       </div>
-      <div class="col-lg-offset-6 col-xs-12 ecart1">
+      <div class="col-lg-offset-6 col-xs-3 ecart1">
         <p class="text-noir">© 2017 Made with <img src="img/pomset/picto/like.png"> by Pomset</p>
       </div>
 
