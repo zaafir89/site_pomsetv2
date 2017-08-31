@@ -18,9 +18,10 @@ h3{
 p{
   color: white;
 }
+
 .logo{
-  margin-top: 70px;
-  margin-left:150px;
+  margin-top: 80px;
+  margin-left:80px;
   margin-bottom: 150px;
 }
 
@@ -93,7 +94,7 @@ a:hover{
   padding-left: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .contenu-gauche{
     position: fixed;
     background: url("../img/pomset/backgroundg.png");
@@ -105,7 +106,9 @@ a:hover{
   }
 
 }
-
+.size{
+  font-size: 20px;
+}
 
 /* ---------------------------volet laterale---------------------------------------*/
 

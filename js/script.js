@@ -1,39 +1,20 @@
-//oie
+$(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
 
-function openOie() {
-    document.getElementById("oie").style.width = "50%";
+        $('#back-to-top').tooltip('show');
 
-}
-function closeOie() {
-    document.getElementById("oie").style.width = "0";
-}
-
-//areas
-
-function openAreas() {
-    document.getElementById("areas").style.width = "50%";
-
-}
-function closeAreas() {
-    document.getElementById("areas").style.width = "0";
-}
-
-//adp
-
-function openAdp() {
-    document.getElementById("adp").style.width = "50%";
-
-}
-function closeAdp() {
-    document.getElementById("adp").style.width = "0";
-}
-
-//aviva
-
-function openAviva() {
-    document.getElementById("aviva").style.width = "50%";
-
-}
-function closeAviva() {
-    document.getElementById("aviva").style.width = "0";
-}
+});

@@ -39,7 +39,7 @@
           <div class="col-lg-6 col-sm-6 col-xs-12">
             <img src="img/pomset/default/j.jpg" class="img-responsive image-gauche" alt="work"/>
           </div>
-
+          <span class="ecart"></span>
           <div class="col-lg-6 col-sm-6 col-xs-12">
             <img src="img/pomset/default/j.jpg" class="img-responsive image-droite" alt="work"/>
           </div>
@@ -147,10 +147,17 @@
 
         </div>
       </div>
-      <div class="col-lg-offset-6 col-xs-3 ecart1">
+      <div class="col-lg-offset-6 col-lg-3 col-xs-12 ecart1">
+        <button type="submit" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <p class="text-noir">© 2017 Made with <img src="img/pomset/picto/like.png"> by Pomset</p>
+
+
       </div>
+
 
     </div>
   </div>
+
+
 </div>
+<script>
