@@ -14,7 +14,7 @@
     position: fixed;
     background: url("../img/pomset/backgroundg.png");
     width: 100%;
-    height: 100%;
+    height: 10% !important;
     background-position: left;
     overflow: scroll;
     visibility: hidden;
@@ -26,6 +26,7 @@
     padding: 50px;
   }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -41,6 +42,13 @@
 
 /* Fin média queries */
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: -moz-scrollbars-none;
+}
 
 .content-droit{
   left: 60%;
@@ -100,7 +108,8 @@ a:hover{
   width: 40%;
   height: 100%;
   background-position: left;
-  /*overflow: scroll;*/
+  overflow: scroll;
+  overflow-x: hidden;
 
 }
 
@@ -335,12 +344,12 @@ textarea {
 }
 
 .back-to-top {
-    cursor: pointer;
-    position: fixed;
-    float: right;
-    display:none;
-    color: red;
-    background-color: blue;
+  cursor: pointer;
+  position: fixed;
+  float: right;
+  display:none;
+  color: red;
+  background-color: blue;
 }
 
 .size{
