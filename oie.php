@@ -131,20 +131,44 @@
               <p class="text-noir"><strong>Téléphone: </strong><br>  (+33) 1 47 58 14 31<br> <br></p>
             </div>
             <div class="col-lg-9 col-xs-12">
-              <form class="form-inline">
-                <div class="form-group">
-                    <label for="exampleInputEmail2">Nom</label>
-                  <input type="text" class="form-control btn-pad" id="exampleInputName2" placeholder="Jean">
-                      <label for="exampleInputEmail2">Prénom</label>
-                    <input type="text" class="form-control btn-pad" id="exampleInputName2" placeholder="Durant">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Nom</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Jean">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                    <label for="exampleInputEmail2">Prénom</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Durant">
+                  </div>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail2">Email</label>
-                    <input type="email" class="form-control btn-pad" id="exampleInputEmail2" placeholder="jean.durant@example.com">
-                <div class="form-group">
-                    <label for="exampleInputEmail2">Message</label>
-                  <textarea class="form-control message" rows="6" cols="60" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
-                  <button type="submit" class="btn btn-envoyer marge1">envoyer</button>
+
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jean.durant@example.com">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Objet</label>
+                      <input type="text" class="form-control" id="exampleInputObjet" placeholder="demande de devis, infos diverses, etc.">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Message</label>
+                      <textarea class="form-control message" rows="6" cols="60" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
+                      <button type="submit" class="btn btn-envoyer right">envoyer</button>
+                    </div>
+                  </div>
                 </div>
 
               </form>
@@ -153,7 +177,7 @@
 
         </div>
       </div>
-      <div class="col-lg-offset-6 col-lg-3 col-xs-12 ecart1">
+      <div class="col-lg-offset-6 col-lg-3 col-xs-12 ecart3">
         <button type="submit" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <p class="text-noir">© 2017 Made with <img src="img/pomset/picto/like.png"> by Pomset</p>
 

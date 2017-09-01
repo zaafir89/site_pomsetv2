@@ -6,6 +6,7 @@
     font-family: 'Raleway', sans-serif;
     background-color: white;
     z-index: 1000;
+
   }
 }
 
@@ -16,8 +17,12 @@
     width: 100%;
     height: 10% !important;
     background-position: left;
-    overflow: scroll;
+    /*overflow: scroll;*/
     visibility: hidden;
+  }
+
+  .font{
+    font-size: 10px !important;
   }
 }
 
@@ -25,6 +30,7 @@
   .container{
     padding: 50px;
   }
+
 }
 
 
@@ -38,7 +44,33 @@
   .image-droite{
     padding-left: 0px !important;
   }
+
 }
+
+@media screen and (max-width: 1500px) {
+  .logo1{
+    margin-bottom: 60px !important;
+    margin-top: 80px !important;
+  }
+
+  .font{
+    font-size: 20px;
+  }
+
+  .deuxieme-titre1{
+    margin-bottom: 0px !important;
+  }
+
+  .size1{
+    font-size: 15px;
+  }
+
+  .ecart3{
+    margin-top: 20px;
+  }
+}
+
+
 
 /* Fin média queries */
 
@@ -73,10 +105,7 @@ html {
   margin-bottom: 150px;
 }
 
-/*.premier-block{
-margin-top: 50px;
-margin-left: 70px;
-}*/
+
 
 .deuxieme-titre{
   margin-bottom: 50px;
@@ -87,7 +116,7 @@ margin-left: 70px;
 }
 
 .quatrieme-titre{
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 a:visited{
@@ -105,7 +134,7 @@ a:hover{
 .contenu-gauche{
   position: fixed;
   background: url("../img/pomset/backgroundg.png");
-  width: 40%;
+  width: 45%;
   height: 100%;
   background-position: left;
   overflow: scroll;
@@ -127,8 +156,8 @@ a:hover{
   border: 1px solid white;
   color: white;
   border-radius: 10px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 67px;
+  padding-right: 67px;
   margin: 25px;
 }
 
@@ -140,6 +169,11 @@ a:hover{
   padding-left: 15px;
   padding-right: 15px;
   margin: 25px;
+}
+
+.btn4{
+  padding-left: 47px;
+  padding-right: 47px;
 }
 
 .btn:hover{
@@ -284,7 +318,7 @@ a:hover{
 
 
 .site{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .site:hover{
@@ -320,8 +354,8 @@ textarea {
 }
 
 .container{
-  padding-left: -50px !important;
-  padding-right: 140px !important;
+  padding-left: -10px !important;
+  padding-right: 60px !important;
 }
 
 
@@ -335,11 +369,11 @@ textarea {
 }
 
 .btn-pad{
-  padding-right: 63px;
+  padding-right: 50px;
 }
 
 .marge1{
-  margin-top:-15px !important;
+
   margin-left: 60% !important;
 }
 
@@ -377,4 +411,8 @@ textarea {
 
 .marge2{
   margin-right: 50px;
+}
+
+.form-control{
+  margin:5px !important;
 }
