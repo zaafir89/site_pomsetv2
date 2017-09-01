@@ -51,6 +51,9 @@
 
 }
 
+.social{
+  margin-top: 10px;
+}
 
 .texte{
   color: white;
@@ -58,7 +61,7 @@
 
 .logo{
   margin-top: 80px;
-  margin-left:80px;
+  margin-left:40px;
   margin-bottom: 150px;
 }
 
@@ -73,6 +76,10 @@ margin-left: 70px;
 
 .troisieme-titre{
   margin-top: 200px;
+}
+
+.quatrieme-titre{
+  margin-top: 20px;
 }
 
 a:visited{
@@ -93,7 +100,7 @@ a:hover{
   width: 40%;
   height: 100%;
   background-position: left;
-  overflow: scroll;
+  /*overflow: scroll;*/
 
 }
 
@@ -164,6 +171,11 @@ a:hover{
 
 .container{
   width: 100%;
+
+}
+
+.container.content{
+  padding: 0;
 }
 
 .premier-titre{

@@ -56,7 +56,7 @@ a:hover{
   width: 50%;
   height: 100%;
   background-position: left;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 .btn{

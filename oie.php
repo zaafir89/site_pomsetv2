@@ -133,11 +133,17 @@
             <div class="col-lg-9 col-xs-12">
               <form class="form-inline">
                 <div class="form-group">
-                  <input type="text" class="form-control btn-pad" id="exampleInputName2" placeholder="Nom">
-                  <input type="email" class="form-control email btn-pad" id="exampleInputEmail2" placeholder="Email">
+                    <label for="exampleInputEmail2">Nom</label>
+                  <input type="text" class="form-control btn-pad" id="exampleInputName2" placeholder="Jean">
+                      <label for="exampleInputEmail2">Prénom</label>
+                    <input type="text" class="form-control btn-pad" id="exampleInputName2" placeholder="Durant">
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control message" rows="6" cols="60" placeholder="Message"></textarea>
+                    <label for="exampleInputEmail2">Email</label>
+                    <input type="email" class="form-control btn-pad" id="exampleInputEmail2" placeholder="jean.durant@example.com">
+                <div class="form-group">
+                    <label for="exampleInputEmail2">Message</label>
+                  <textarea class="form-control message" rows="6" cols="60" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
                   <button type="submit" class="btn btn-envoyer marge1">envoyer</button>
                 </div>
 
