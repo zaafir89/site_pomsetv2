@@ -19,7 +19,7 @@
 <body>
   <div class="container content">
     <div class="contenu-gauche col-lg-6">
-      <div class="logo logo1 font">
+      <div class="logo logo1 logo3 font">
         <a href="index.php"><img src="img/pomset/logo_pomset.png"></a>
       </div>
       <div class="row">
