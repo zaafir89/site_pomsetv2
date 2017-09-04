@@ -101,11 +101,13 @@ html {
 
 .logo{
   margin-top: 80px;
-  margin-left:40px;
+  margin-left:50px;
   margin-bottom: 150px;
 }
 
-
+.col-lg-5{
+  width: 35%;
+}
 
 .deuxieme-titre{
   margin-bottom: 50px;
@@ -117,6 +119,7 @@ html {
 
 .quatrieme-titre{
   margin-top: 90px;
+
 }
 
 a:visited{
@@ -158,7 +161,7 @@ a:hover{
   border-radius: 10px;
   padding-left: 67px;
   padding-right: 67px;
-  margin: 25px;
+  margin-left: 0px;
 }
 
 .btn3{
@@ -174,6 +177,10 @@ a:hover{
 .btn4{
   padding-left: 47px;
   padding-right: 47px;
+}
+
+.btn5{
+  margin-left: 0px;
 }
 
 .btn:hover{
