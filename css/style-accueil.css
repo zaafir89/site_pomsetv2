@@ -4,10 +4,8 @@ html{
   width: 50%;
   height: 100%;
   background-position: right;
-  overflow: scroll;
   font-family: 'Raleway', sans-serif;
   background-size: cover;
-  overflow: -moz-scrollbars-none;
   background-size: cover;
   background-repeat: repeat-x;
 -webkit-background-size: cover;
@@ -68,7 +66,7 @@ a:hover{
   width: 50%;
   height: 100%;
   background-position: left;
-  overflow: scroll;
+
 }
 
 .btn{
