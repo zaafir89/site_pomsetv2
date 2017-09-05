@@ -23,6 +23,7 @@
         <a href="index.php"><img src="img/pomset/logo_pomset.png"></a>
       </div>
       <div class="row">
+
         <div class="col-lg-10 col-lg-offset-1 col-xs-offset-1 col-xs-10">
           <h3 class="pacifico texte font">Agence de communication, mais pas que...</h3>
         </div>
@@ -32,7 +33,6 @@
           <h3 class="texte font"><strong>parce qu'une bonne idée <br/>
             peut vivre partout...</strong></h3>
           </div>
-
         </div>
 
 
@@ -65,3 +65,10 @@
     </div>
   </div>
 </div>
+
+
+
+<script type="text/javascript" src="../../js/aos.js"></script>
+<script>
+AOS.init();
+</script>

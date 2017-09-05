@@ -38,6 +38,10 @@
           <p>Qui sont-ils ? <a href="http://www.oie.int/fr/" target="_blank" style="color:black;">http://www.oie.int.fr/</a></p>
 
           <p>Ce projet vous a plus ? Contactez-nous ! </p>
+          <!-- <div data-aos="fade-up">
+            <p>hello</p>
+          </div> -->
+
         </div>
 
       </div>
@@ -202,4 +206,7 @@
 
 
 </div>
+<script type="text/javascript" src="../../js/aos.js"></script>
 <script>
+AOS.init();
+</script>
