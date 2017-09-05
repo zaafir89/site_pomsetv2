@@ -4,35 +4,35 @@
   <div class="container-">
 
 
-    <p class="premier-titre">AVIVA</p>
-    <a href="index.php" <button type="button" class="close" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button></a>
+    <p class="premier-titre">une idée génératice / Bonne année avec AVIVA</p>
 
-  <a href="index.php"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+
+  <a href="index.php" style="color:white;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/pomset/default/g.jpg" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">Titre mot <strong>double</strong> pour pas.</h2>
-          <h3 class="text-noir ecart2"><strong>Le challenge</strong></h3>
-          <p class="text-noir">
-            Customers love our block-based approach to template building,
-            it makes assembling beautiful pages fast and enjoyable, leaving
-            more time to craft your perfect layout. love our block-based
-            approach to template building, it makes assembling beautiful pages
-            fast and enjoyable, leaving more time to craft your perfect layout.
-          </p>
+          <img src="img/aviva/A_AVIVA.png" class="img-responsive" alt="work"/>
+          <h2 class="trait text-noir ecart1">Bonne année avec <strong>AVIVA</strong></h2>
 
-          <h3 class="ecart2"><strong>Nos solutions</strong></h3>
+          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <p class="text-noir">Réaliser une carte de vœux électronique personnalisable. </p>
+
+          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <p class="text-noir">Communiquer sur la fin d’année 2016.  </p>
+
+          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <p>Nous avons proposé une carte de vœux innovante, fédératrice et interactive. Ce système de partage facile a permis de générer de mini buzz. </p>
           <ul>
-            <li>RA 56 pages PDF interactif</li>
-            <li>Dépliant 8 pages / 4 volets</li>
-            <li>Video 1min30</li>
-            <li>Web flyer</li>
-            <li>Un mini site</li>
+            <li>Plateforme d’envoi individuelle permettant de sélectionner parmi 3 emailings personnalisables. </li>
+            <li>Accès à un « mur social ». Son principe : chaque personne pouvait poster son envie pour 2017 et la partager sur le mur ou sur les Réseaux Sociaux</li>
+            <li>Modération</li>
           </ul>
+          <p>Web / Digital / Plateforme / Réseaux Sociaux / Modération</p>
+
+          <p>Qui sont-ils ? <a href="http://www.aviva.fr" target="_blank" style="color:black;">http://www.aviva.fr</a></p>
+
+          <p>Ce projet vous a plus ? Contactez-nous ! </p>
         </div>
 
       </div>
@@ -40,52 +40,35 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
           <div class="col-lg-6 col-sm-6 col-xs-12">
-            <img src="img/pomset/default/j.jpg" class="img-responsive image-gauche" alt="work"/>
+            <img src="img/aviva/B_AVIVA.png" class="img-responsive image-gauche" alt="work"/>
           </div>
           <span class="ecart"></span>
           <div class="col-lg-6 col-sm-6 col-xs-12">
-            <img src="img/pomset/default/j.jpg" class="img-responsive image-droite" alt="work"/>
+            <img src="img/aviva/C_AVIVA.png" class="img-responsive image-droite" alt="work"/>
           </div>
         </div>
 
       </div>
       <span class="ecart"></span>
-
-      <div class="row">
-        <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/pomset/default/g.jpg" class="img-responsive ecart" alt="work"/>
-        </div>
-
-      </div>
-
     </div>
     <!--fin du container-->
-    <div class="container bg">
+    <div class="container bg6">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/pomset/default/h.jpg" class="img-responsive" alt="work"/>
+          <img src="img/aviva/D_AVIVA.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
 
-    <div class="container bg2">
+    <div class="container bg7">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/pomset/default/h.jpg" class="img-responsive" alt="work"/>
+          <img src="img/aviva/E_AVIVA.png" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
 
-    <div class="container padi">
-      <div class="col-lg-offset-6 col-lg-6 col-xs-12 ecart">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/131777654?title=0&byline=0&portrait=0"></iframe>
-        </div>
 
-
-      </div>
-
-    </div>
     <div class="container padi">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-3 col-xs-12">
@@ -98,14 +81,14 @@
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div class="col-lg-6 col-xs-12 texte-couleur">
             <h3 class="text-noir"><strong>Les chiffres</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">DOLOR</span></strong></h2>
+            <h2 class="text-noir"><strong><span class="textcolor3">DOLOR</span></strong></h2>
             <p class="text-noir">Lorem ipsum sit mata</p>
           </div>
 
 
           <div class="col-lg-6 col-xs-12">
             <h3 class="texte"><strong>test</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">45 MIN</span></strong></h2>
+            <h2 class="text-noir"><strong><span class="textcolor3">45 MIN</span></strong></h2>
             <p class="text-noir">Lorem ipsum sit mata</p>
           </div>
         </div>

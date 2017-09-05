@@ -4,35 +4,34 @@
   <div class="container-">
 
 
-    <p class="premier-titre">ADP</p>
-    <a href="index.php" <button type="button" class="close" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button></a>
+    <p class="premier-titre">une idée lab / Digiposte 100% digital</p>
 
-  <a href="index.php"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+
+    <a href="index.php" style="color:white;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/adp/A_ADP.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">Titre mot <strong>double</strong> pour pas.</h2>
-          <h3 class="text-noir ecart2"><strong>Le challenge</strong></h3>
-          <p class="text-noir">
-            Customers love our block-based approach to template building,
-            it makes assembling beautiful pages fast and enjoyable, leaving
-            more time to craft your perfect layout. love our block-based
-            approach to template building, it makes assembling beautiful pages
-            fast and enjoyable, leaving more time to craft your perfect layout.
-          </p>
+          <img src="img/adp/adp1.png" class="img-responsive" alt="work"/>
+          <h2 class="trait text-noir ecart1">Digiposte d'<strong>ADP</strong> 100% digital</h2>
 
-          <h3 class="ecart2"><strong>Nos solutions</strong></h3>
+          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <p class="text-noir">Communiquer sur le service Digiposte proposé par ADP et concernant la future dématérialisation du bulletin de paie.</p>
+
+          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <p class="text-noir">Etre ludique, fédérateur et informatif sur un sujet parfois compliqué.  </p>
+
+          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <p>Nous avons mis en place un projet évolutif en 5 étapes, qui a permis de fidéliser les utilisateurs sur du long terme. </p>
           <ul>
-            <li>RA 56 pages PDF interactif</li>
-            <li>Dépliant 8 pages / 4 volets</li>
-            <li>Video 1min30</li>
-            <li>Web flyer</li>
-            <li>Un mini site</li>
+            <li>5 emailing (1 par étape)</li>
+            <li>Un mini site avec lecture horizontale et enrichit de vidéos, de mini-jeux</li>
           </ul>
+          <p>E-mailing / Mini-site / Vidéo / Jeux / Conception Rédaction / Création Ligne Editoriale</p>
+
+          <p>Qui sont-ils ? <a href="http://www.fr.adp.com" target="_blank" style="color:black;">http://www.fr.adp.com</a></p>
+
+          <p>Ce projet vous a plus ? Contactez-nous ! </p>
         </div>
 
       </div>
@@ -51,39 +50,40 @@
       </div>
       <span class="ecart"></span>
 
-      <div class="row">
-        <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/adp/D_ADP.png" class="img-responsive ecart" alt="work"/>
-        </div>
 
-      </div>
 
     </div>
     <!--fin du container-->
-    <div class="container bg">
+    <div class="container bg4 ">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/pomset/default/h.jpg" class="img-responsive" alt="work"/>
+          <img src="img/adp/D_ADP.png" class="img-responsive" alt="work"/>
+        </div>
+      </div>
+    </div>
+    <div class="container bg5">
+      <div class="row">
+        <div class="col-lg-offset-6 col-lg-6 col-xs-12">
+          <img src="img/adp/E_ADP.gif" class="img-responsive" alt="work"/>
+        </div>
+      </div>
+    </div>
+    <div class="container bg5">
+      <div class="row">
+        <div class="col-lg-offset-6 col-lg-6 col-xs-12">
+          <img src="img/adp/F_ADP.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
 
-    <div class="container bg2">
-      <div class="row">
-        <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/pomset/default/h.jpg" class="img-responsive" alt="work"/>
-        </div>
-      </div>
-    </div>
 
     <div class="container padi">
       <div class="col-lg-offset-6 col-lg-6 col-xs-12 ecart">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/131777654?title=0&byline=0&portrait=0"></iframe>
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/221729388?title=0&byline=0&portrait=0"></iframe>
         </div>
-
-
       </div>
+
 
     </div>
     <div class="container padi">
@@ -98,14 +98,14 @@
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div class="col-lg-6 col-xs-12 texte-couleur">
             <h3 class="text-noir"><strong>Les chiffres</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">DOLOR</span></strong></h2>
+            <h2 class="textcolor1"><strong><span class="textcolor1">DOLOR</span></strong></h2>
             <p class="text-noir">Lorem ipsum sit mata</p>
           </div>
 
 
           <div class="col-lg-6 col-xs-12">
             <h3 class="texte"><strong>test</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">45 MIN</span></strong></h2>
+            <h2 class=""><strong><span class="textcolor1">45 MIN</span></strong></h2>
             <p class="text-noir">Lorem ipsum sit mata</p>
           </div>
         </div>

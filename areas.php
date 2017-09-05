@@ -4,35 +4,37 @@
   <div class="container-">
 
 
-    <p class="premier-titre">AREAS</p>
-    <a href="index.php" <button type="button" class="close" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button></a>
+    <p class="premier-titre">une idée performante / City AREAS pour les non salariés</p>
 
-  <a href="index.php"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+
+    <a href="index.php" style="color:white;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <img src="img/areas/A_AREAS.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">Titre mot <strong>double</strong> pour pas.</h2>
-          <h3 class="text-noir ecart2"><strong>Le challenge</strong></h3>
-          <p class="text-noir">
-            Customers love our block-based approach to template building,
-            it makes assembling beautiful pages fast and enjoyable, leaving
-            more time to craft your perfect layout. love our block-based
-            approach to template building, it makes assembling beautiful pages
-            fast and enjoyable, leaving more time to craft your perfect layout.
-          </p>
+          <h2 class="trait text-noir ecart1">La city <strong>AREAS</strong> pour les travailleurs non salariés</h2>
 
-          <h3 class="ecart2"><strong>Nos solutions</strong></h3>
+          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <p class="text-noir">Communiquer sur les produits prévoyance, auprès des TNS.</p>
+
+          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <p class="text-noir">Générer des contrats prévoyance et récupérer de la data.</p>
+
+          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <p>Nous avons mis en place une opération permettant de répondre à 2 objectifs à travers un story-telling impactant et innovant.</p>
           <ul>
-            <li>RA 56 pages PDF interactif</li>
-            <li>Dépliant 8 pages / 4 volets</li>
-            <li>Video 1min30</li>
-            <li>Web flyer</li>
+            <li>Web flyer qui renvoyait sur un mini site aux contenus personnalisés à double entrée : </li>
+            <li>« Jeux concours » permettant de récupérer de la data,</li>
+            <li>« En savoir plus » donnant accès à un mini formulaire permettant ensuite d’avoir un contenu personnalisé,</li>
+            <li>6 avatars déclinées sur 6 vidéos représentant chacun une problématique, relayables sur les Réseaux Sociaux.</li>
             <li>Un mini site</li>
           </ul>
+          <p>Web / Digital / Mini-site / Webflyer / Réseaux Sociaux / Storytelling</p>
+
+          <p>Qui sont-ils ? <a href="https://www.areas.fr" target="_blank" style="color:black;">https://www.AREAS.fr</a></p>
+
+          <p>Ce projet vous a plus ? Contactez-nous ! </p>
         </div>
 
       </div>
@@ -63,23 +65,51 @@
       </div>
     </div>
 
+
+        <div class="container bg2">
+          <div class="row">
+            <div class="col-lg-offset-6 col-lg-6">
+              <img src="img/areas/E_AREAS.png" class="img-responsive" alt="work"/>
+            </div>
+          </div>
+        </div>
+
     <div class="container bg2">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/areas/E_AREAS.png" class="img-responsive" alt="work"/>
+          <div class="col-sm-4 col-xs-12">
+            <img src="img/areas/F_AREAS.png" class="img-responsive" alt="work"/>
+          </div>
+
+
+          <div class="col-sm-4 col-xs-12">
+            <img src="img/areas/G_AREAS.png" class="img-responsive" alt="work"/>
+          </div>
+
+          <div class="col-sm-4 col-xs-12">
+            <img src="img/areas/H_AREAS.png" class="img-responsive" alt="work"/>
+          </div>
         </div>
       </div>
     </div>
 
+
+
     <div class="container padi">
       <div class="col-lg-offset-6 col-lg-6 col-xs-12 ecart">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/131777654?title=0&byline=0&portrait=0"></iframe>
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/164571314?title=0&byline=0&portrait=0"></iframe>
         </div>
-
-
       </div>
 
+    </div>
+
+    <div class="container bg2">
+      <div class="row">
+        <div class="col-lg-offset-6 col-lg-6">
+          <img src="img/areas/I_AREAS.png" class="img-responsive" alt="work"/>
+        </div>
+      </div>
     </div>
     <div class="container padi">
       <div class="row">
@@ -93,14 +123,14 @@
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div class="col-lg-6 col-xs-12 texte-couleur">
             <h3 class="text-noir"><strong>Les chiffres</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">DOLOR</span></strong></h2>
+            <h2 class="text-noir"><strong><span class="textcolor2">DOLOR</span></strong></h2>
             <p class="text-noir">Lorem ipsum sit mata</p>
           </div>
 
 
           <div class="col-lg-6 col-xs-12">
             <h3 class="texte"><strong>test</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor">45 MIN</span></strong></h2>
+            <h2 class="text-noir"><strong><span class="textcolor2">45 MIN</span></strong></h2>
             <p class="text-noir">Lorem ipsum sit mata</p>
           </div>
         </div>

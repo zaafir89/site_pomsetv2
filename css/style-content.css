@@ -159,13 +159,14 @@ html {
 }
 
 a:visited{
-  color: white !important;
+  color: white;
 }
 
 a:link{
   text-decoration: none;
-  color: white !important;
+  color: white;
 }
+
 
 a:hover{
   color: #cdcb35;
@@ -232,7 +233,7 @@ a:hover{
 }
 
 .btn-close:hover{
-  background: red;
+    background: #a4a4a4;
 }
 
 
@@ -305,7 +306,8 @@ a:hover{
 }
 
 .col-sm-6.texte-couleur{
-  margin-left: -12px;
+  margin-left: 0px !important;
+  padding-left: 10px;
 }
 
 .col-sm-6{
@@ -345,6 +347,17 @@ a:hover{
   color: #aa253b;
 }
 
+.textcolor1{
+  color: #a34296;
+}
+
+.textcolor2{
+  color: #106ba5;
+}
+
+.textcolor3{
+  color: #f8e555;
+}
 .btn-envoyer{
   margin-left: 50px;
   background-color: #232537;
@@ -361,12 +374,13 @@ a:hover{
 
 .btn-close{
   margin-left: 50px;
-  background-color: rgba(255, 0, 0, 0.2);
+  background-color: #4a5353;
   padding-left: 15px !important;
   padding-right: 15px !important;
-  margin-top: 20px
-
+  margin-top: 30px
 }
+
+
 
 
 .survol:hover{
@@ -416,21 +430,59 @@ a:hover{
 }
 
 .bg{
+  margin-top: 10px;
   background-color: #bd1134;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .bg2{
+
   background-color: #e4e2d9;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .bg3{
+  margin-top: 10px;
   background-color: #106ba5;
-  padding-top: 100px;
+  padding-top: 4px;
   padding-bottom: 100px;
+}
+
+.bg4{
+  margin-top: 10px;
+  background-color: #DCDCDC;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg5{
+
+  background-color: #DCDCDC;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg6{
+  margin-top: 10px;
+  background-color: #f8e555;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg7{
+
+  background-color: #eeeeee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg8{
+
+  background-color: #c6c6c6;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 textarea {
@@ -442,7 +494,7 @@ textarea {
 
 .right{
   float: right;
-  margin-right: 48%;
+
 }
 
 .right1{
@@ -457,33 +509,14 @@ textarea {
   margin-top: 10%
 }
 
-@media screen and (max-width: 468px) {
-  .right{
-    float: right;
-    margin-right: 85%;
-    margin-top: -10px;
-  }
-  .right1{
-    float: right;
-    margin-right: 30%;
-    margin-top: 10%;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .right{
-    float: right;
-    margin-right: 85%;
-
-  }
-}
 
 @media screen and (max-width: 600px) {
 
   .right{
     float: right;
-    margin-right: 85%;
-    margin-top: -15px;
+    margin-right: 10%;
+    margin-top: 30px;
 
   }
 
