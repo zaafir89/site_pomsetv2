@@ -13,15 +13,15 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <img src="img/aviva/A_AVIVA.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">Bonne année avec <strong>AVIVA</strong></h2>
+          <h2 class="trait text-noir ecart1"><strong>Bonne année</strong> avec AVIVA</h2>
 
-          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <h3 class="text-noir ecart2"><strong>LA DEMANDE</strong></h3>
           <p class="text-noir">Réaliser une carte de vœux électronique personnalisable. </p>
 
-          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <h3 class="text-noir ecart2"><strong>L'OBJECTIF</strong></h3>
           <p class="text-noir">Communiquer sur la fin d’année 2016.  </p>
 
-          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <h3 class="ecart2"><strong>NOTRE REPONSE</strong></h3>
           <p>Nous avons proposé une carte de vœux innovante, fédératrice et interactive. Ce système de partage facile a permis de générer de mini buzz. </p>
           <ul>
             <li>Plateforme d’envoi individuelle permettant de sélectionner parmi 3 emailings personnalisables. </li>
@@ -30,9 +30,6 @@
           </ul>
           <p>Web / Digital / Plateforme / Réseaux Sociaux / Modération</p>
 
-          <p>Qui sont-ils ? <a href="http://www.aviva.fr" target="_blank" style="color:black;">http://www.aviva.fr</a></p>
-
-          <p>Ce projet vous a plus ? Contactez-nous ! </p>
         </div>
 
       </div>
@@ -106,7 +103,7 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div>
-            <h2 class="text-noir size2"><strong>Cela vous</strong> <em>intéresse?</em><br> Contactez nous et nous reviendrons vers vous très vite!</h2>
+              <h2 class="text-noir size2"><strong>Ce projet </strong>vous a plus ? Contactez-nous !</h2>
           </div>
 
           <div class="row">

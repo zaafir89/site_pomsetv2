@@ -13,15 +13,15 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <img src="img/adp/adp1.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">Digiposte d'<strong>ADP</strong> 100% digital</h2>
+          <h2 class="trait text-noir ecart1">Digiposte d'ADP <strong>100% digital</strong></h2>
 
-          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <h3 class="text-noir ecart2"><strong>LA DEMANDE</strong></h3>
           <p class="text-noir">Communiquer sur le service Digiposte proposé par ADP et concernant la future dématérialisation du bulletin de paie.</p>
 
-          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <h3 class="text-noir ecart2"><strong>L'OBJECTIF</strong></h3>
           <p class="text-noir">Etre ludique, fédérateur et informatif sur un sujet parfois compliqué.  </p>
 
-          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <h3 class="ecart2"><strong>NOTRE REPONSE</strong></h3>
           <p>Nous avons mis en place un projet évolutif en 5 étapes, qui a permis de fidéliser les utilisateurs sur du long terme. </p>
           <ul>
             <li>5 emailing (1 par étape)</li>
@@ -29,9 +29,6 @@
           </ul>
           <p>E-mailing / Mini-site / Vidéo / Jeux / Conception Rédaction / Création Ligne Editoriale</p>
 
-          <p>Qui sont-ils ? <a href="http://www.fr.adp.com" target="_blank" style="color:black;">http://www.fr.adp.com</a></p>
-
-          <p>Ce projet vous a plus ? Contactez-nous ! </p>
         </div>
 
       </div>
@@ -64,7 +61,7 @@
     <div class="container bg5">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/adp/E_ADP.gif" class="img-responsive" alt="work"/>
+          <img src="img/adp/e-adp2.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
@@ -123,8 +120,7 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div>
-            <h2 class="text-noir size2"><strong>Cela vous</strong> <em>intéresse?</em><br> Contactez nous et nous reviendrons vers vous très vite!</h2>
-          </div>
+              <h2 class="text-noir size2"><strong>Ce projet </strong>vous a plus ? Contactez-nous !</h2>
 
           <div class="row">
             <div class="col-lg-3 col-xs-12">

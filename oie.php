@@ -13,15 +13,15 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <img src="img/oie/A_OIE.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">L'<strong>Oie</strong> veut un rapport annuel innovant et adapté à tous</h2>
+          <h2 class="trait text-noir ecart1">L'oie veut un <strong>rapport annuel</strong> innovant et adapté à tous</h2>
 
-          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <h3 class="text-noir ecart2"><strong>LA DEMANDE</strong></h3>
           <p class="text-noir">Distribuer le rapport annuel aux 180 pays délégués lors de leur Assemblée Générale mais aussi toucher un public plus large.</p>
 
-          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <h3 class="text-noir ecart2"><strong>L'OBJECTIF</strong></h3>
           <p class="text-noir">Etre ludique, fédérateur et informatif sur un sujet parfois compliqué.  </p>
 
-          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <h3 class="ecart2"><strong>NOTRE REPONSE</strong></h3>
           <p>Nous avons proposé un concept clair et moderne, adapté à leur caractère institutionnel, transposables sur des supports innovants intégrant édition et digital, en 3 langues (FR/ESP/ENG). </p>
           <ul>
             <li>Rapport annuel de 56 pages</li>
@@ -35,9 +35,9 @@
           </ul>
           <p>Web / Digital / Mini-site / Edition / PDF / Webflyer / Conception Rédaction / Ergonomie</p>
 
-          <p>Qui sont-ils ? <a href="http://www.oie.int/fr/" target="_blank" style="color:black;">http://www.oie.int.fr/</a></p>
 
-          <p>Ce projet vous a plus ? Contactez-nous ! </p>
+
+
           <!-- <div data-aos="fade-up">
             <p>hello</p>
           </div> -->
@@ -72,7 +72,7 @@
     <div class="container bg">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/oie/gif-oie1.gif" class="img-responsive" alt="work"/>
+          <img src="img/oie/gif-oie3.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
     <div class="container bg8">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/oie/gif-oie2.gif" class="img-responsive" alt="work"/>
+          <img src="img/oie/gif-oie4.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
@@ -130,7 +130,7 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div>
-            <h2 class="text-noir size2"><strong>Cela vous</strong> <em>intéresse?</em><br> Contactez nous et nous reviendrons vers vous très vite!</h2>
+            <h2 class="text-noir size2"><strong>Ce projet </strong>vous a plus ? Contactez-nous !</h2>
           </div>
 
           <div class="row">

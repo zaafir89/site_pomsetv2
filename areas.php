@@ -13,15 +13,15 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <img src="img/areas/A_AREAS.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">La city <strong>AREAS</strong> pour les travailleurs non salariés</h2>
+          <h2 class="trait text-noir ecart1">La <strong>city AREAS</strong> pour les travailleurs non salariés</h2>
 
-          <h3 class="text-noir ecart2"><strong>La demande</strong></h3>
+          <h3 class="text-noir ecart2"><strong>LA DEMANDE</strong></h3>
           <p class="text-noir">Communiquer sur les produits prévoyance, auprès des TNS.</p>
 
-          <h3 class="text-noir ecart2"><strong>L'objectif</strong></h3>
+          <h3 class="text-noir ecart2"><strong>L'OBJECTIF</strong></h3>
           <p class="text-noir">Générer des contrats prévoyance et récupérer de la data.</p>
 
-          <h3 class="ecart2"><strong>Notre réponse</strong></h3>
+          <h3 class="ecart2"><strong>NOTRE REPONSE</strong></h3>
           <p>Nous avons mis en place une opération permettant de répondre à 2 objectifs à travers un story-telling impactant et innovant.</p>
           <ul>
             <li>Web flyer qui renvoyait sur un mini site aux contenus personnalisés à double entrée : </li>
@@ -31,10 +31,6 @@
             <li>Un mini site</li>
           </ul>
           <p>Web / Digital / Mini-site / Webflyer / Réseaux Sociaux / Storytelling</p>
-
-          <p>Qui sont-ils ? <a href="https://www.areas.fr" target="_blank" style="color:black;">https://www.AREAS.fr</a></p>
-
-          <p>Ce projet vous a plus ? Contactez-nous ! </p>
         </div>
 
       </div>
@@ -148,7 +144,7 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div>
-            <h2 class="text-noir size2"><strong>Cela vous</strong> <em>intéresse?</em><br> Contactez nous et nous reviendrons vers vous très vite!</h2>
+              <h2 class="text-noir size2"><strong>Ce projet </strong>vous a plus ? Contactez-nous !</h2>
           </div>
 
           <div class="row">
