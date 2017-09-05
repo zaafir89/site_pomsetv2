@@ -45,11 +45,11 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
           <div class="col-lg-6 col-sm-6 col-xs-12">
-            <img src="img/OIE/B_OIE.png" class="img-responsive image-gauche" alt="work"/>
+            <img src="img/oie/oie-b.png" class="img-responsive image-gauche" alt="work"/>
           </div>
           <span class="ecart"></span>
           <div class="col-lg-6 col-sm-6 col-xs-12">
-            <img src="img/OIE/C_OIE.png" class="img-responsive image-droite" alt="work"/>
+            <img src="img/oie/oie-c.png" class="img-responsive image-droite" alt="work"/>
           </div>
         </div>
 
@@ -58,7 +58,7 @@
 
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/OIE/D_OIE.png" class="img-responsive ecart" alt="work"/>
+          <img src="img/oie/oie-d.png" class="img-responsive ecart" alt="work"/>
         </div>
 
       </div>
@@ -68,7 +68,7 @@
     <div class="container bg">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/OIE/oie-gif1.gif" class="img-responsive" alt="work"/>
+          <img src="img/oie/gif-oie1.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
     <div class="container bg8">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/OIE/oie-gif2.gif" class="img-responsive" alt="work"/>
+          <img src="img/oie/gif-oie2.gif" class="img-responsive" alt="work"/>
         </div>
       </div>
     </div>
