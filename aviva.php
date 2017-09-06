@@ -1,13 +1,13 @@
 <?php include'layout.php'; ?>
 
 <div class="content-droit">
-  <div class="container-">
+  <div class="container-content">
 
-
+  <div class="col-lg-offset-6 col-lg-6 col-xs-12">
     <p class="premier-titre">une idée génératice / Bonne année avec AVIVA</p>
+</div>
 
-
-  <a href="index.php" style="color:white;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+  <a href="index.php" style="color:black;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
@@ -49,18 +49,18 @@
       <span class="ecart"></span>
     </div>
     <!--fin du container-->
-    <div class="container bg6">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/aviva/D_AVIVA.gif" class="img-responsive" alt="work"/>
+          <img src="img/aviva/D_AVIVA.gif" class="img-responsive bg6" alt="work"/>
         </div>
       </div>
     </div>
 
-    <div class="container bg7">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <img src="img/aviva/E_AVIVA.png" class="img-responsive" alt="work"/>
+          <img src="img/aviva/E_AVIVA.png" class="img-responsive bg7" alt="work"/>
         </div>
       </div>
     </div>

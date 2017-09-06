@@ -3,11 +3,12 @@
 <div class="content-droit">
   <div class="container-">
 
-
+  <div class="col-lg-offset-6 col-lg-6 col-xs-12">
     <p class="premier-titre">une idée lab / Digiposte 100% digital</p>
+  </div>
 
 
-    <a href="index.php" style="color:white;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+    <a href="index.php" style="color:black;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
@@ -51,24 +52,24 @@
 
     </div>
     <!--fin du container-->
-    <div class="container bg4 ">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/adp/D_ADP.png" class="img-responsive" alt="work"/>
+          <img src="img/adp/D_ADP.png" class="img-responsive bg4" alt="work"/>
         </div>
       </div>
     </div>
-    <div class="container bg5">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/adp/e-adp2.gif" class="img-responsive" alt="work"/>
+          <img src="img/adp/e-adp2.gif" class="img-responsive bg5" alt="work"/>
         </div>
       </div>
     </div>
-    <div class="container bg5">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/adp/F_ADP.gif" class="img-responsive" alt="work"/>
+          <img src="img/adp/F_ADP.gif" class="img-responsive bg11" alt="work"/>
         </div>
       </div>
     </div>

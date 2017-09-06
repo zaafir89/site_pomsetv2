@@ -1,3 +1,9 @@
+
+.font{
+  font-size: 28px;
+}
+
+
 /* Début média queries */
 @media screen and (max-width: 1200px) {
   .content-droit{
@@ -48,6 +54,11 @@
 
 }
 
+.size2{
+  font-size: 20px;
+
+}
+
 @media screen and (max-width: 1500px) {
   .logo1{
     margin-bottom: 60px !important;
@@ -64,16 +75,19 @@
 
   .size1{
     font-size: 15px;
+
   }
 
   .size2{
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .ecart3{
     margin-top: 20px;
   }
 }
+
+
 
 @media screen and (min-width: 1700px) {
   .logo3{
@@ -105,7 +119,10 @@
 
 
 
-
+.container.gif{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 /* Fin média queries */
@@ -117,6 +134,8 @@
 html {
   overflow: auto;
 }
+
+
 
 .content-droit{
   left: 60%;
@@ -199,7 +218,7 @@ a:hover{
 }
 
 .btn3{
-  background-color: grey;
+
   border: 1px solid white;
   color: white;
   border-radius: 20px;
@@ -221,17 +240,13 @@ a:hover{
   background: #cdcb35;
 }
 
-.btn3:hover{
-  background: #cdcb35;
-}
+
 
 .btn-top:hover{
   background: #a4a4a4;
 }
 
-.btn-close:hover{
-    background: #a4a4a4;
-}
+
 
 
 .img-droite{
@@ -242,9 +257,7 @@ a:hover{
 
 }
 
-.container-fluid{
-  padding-left: 0;
-}
+
 
 
 
@@ -258,7 +271,7 @@ a:hover{
   display: block;
   width: 100px;
   height: 4px;
-  margin-top: 20px;
+  margin-top: 45px;
   background-color: grey;
 }
 
@@ -280,21 +293,18 @@ a:hover{
 
 }
 
+
+
 .container.content{
   padding: 0;
 }
 
 .premier-titre{
-  position: absolute;
-  right: 6px;
-  top:10px;
+  margin-bottom: -30px;
 }
 
-.ecart{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-}
+
+
 
 
 .col-sm-6.img-double{
@@ -371,10 +381,10 @@ a:hover{
 
 .btn-close{
   margin-left: 50px;
-  background-color: #4a5353;
+  background-color: #4a535;
   padding-left: 15px !important;
   padding-right: 15px !important;
-  margin-top: 30px
+  margin-top: 2px
 }
 
 
@@ -408,11 +418,22 @@ a:hover{
   margin-bottom: 50px;
 }
 
+.message1{
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
 .form-control{
   border-radius: 10px;
 }
 
+.light{
+  font-weight: lighter;
+}
 
+.bold{
+  font-weight: bolder;
+}
 .site{
   font-size: 15px;
 }
@@ -427,10 +448,11 @@ a:hover{
 }
 
 .bg{
-  margin-top: 10px;
+
+  margin-top: 0px !important;
   background-color: #bd1134;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .bg2{
@@ -438,6 +460,7 @@ a:hover{
   background-color: #e4e2d9;
   padding-top: 40px;
   padding-bottom: 40px;
+
 }
 
 .bg3{
@@ -480,6 +503,33 @@ a:hover{
   background-color: #c6c6c6;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.bg9{
+
+  background-color: #e4e2d9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+
+}
+
+.bg10{
+
+  background-color: #e4e2d9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+
+}
+
+.bg11{
+
+  background-color: #DCDCDC;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 textarea {
@@ -519,11 +569,29 @@ textarea {
 
 }
 
-
+.row{
+  margin-right: -7px;
+  margin-left: -15px;
+}
 
 .container{
   padding-left: -10px !important;
   padding-right: 60px !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .container{
+    padding-left: -10px !important;
+    padding-right: 41px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+}
+
+.ecart{
+  margin-top: 10px;
 }
 
 
@@ -560,6 +628,10 @@ textarea {
 
 .marge2{
   margin-right: 50px;
+}
+.marge3{
+  margin-right:66px;
+  margin-left: 50px;
 }
 
 .form-control{

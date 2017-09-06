@@ -3,11 +3,12 @@
 <div class="content-droit">
   <div class="container-">
 
-
+  <div class="col-lg-offset-6 col-lg-6 col-xs-12">
     <p class="premier-titre">une idée performante / City AREAS pour les non salariés</p>
+  </div>
 
 
-    <a href="index.php" style="color:white;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+    <a href="index.php" style="color:black;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
@@ -53,36 +54,36 @@
 
     </div>
     <!--fin du container-->
-    <div class="container bg3">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <img src="img/areas/D_AREAS.gif" class="img-responsive" alt="work"/>
+          <img src="img/areas/D_AREAS.gif" class="img-responsive bg3" alt="work"/>
         </div>
       </div>
     </div>
 
 
-        <div class="container bg2">
+        <div class="container">
           <div class="row">
             <div class="col-lg-offset-6 col-lg-6">
-              <img src="img/areas/E_AREAS.png" class="img-responsive" alt="work"/>
+              <img src="img/areas/E_AREAS.png" class="img-responsive bg2" alt="work"/>
             </div>
           </div>
         </div>
 
-    <div class="container bg2">
+    <div class="container">
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6">
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-4 col-xs-12 bg2">
             <img src="img/areas/F_AREAS.png" class="img-responsive" alt="work"/>
           </div>
 
 
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-4 col-xs-12 bg2">
             <img src="img/areas/G_AREAS.png" class="img-responsive" alt="work"/>
           </div>
 
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-4 col-xs-12 bg9">
             <img src="img/areas/H_AREAS.png" class="img-responsive" alt="work"/>
           </div>
         </div>
@@ -100,9 +101,9 @@
 
     </div>
 
-    <div class="container bg2">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-offset-6 col-lg-6">
+        <div class="col-lg-offset-6 col-lg-6 bg10">
           <img src="img/areas/I_AREAS.png" class="img-responsive" alt="work"/>
         </div>
       </div>

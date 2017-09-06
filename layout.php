@@ -56,7 +56,7 @@
 
         </div>
         <div class="col-lg-3 col-xs-3 quatrieme-titre">
-          <a href="http://www.pomset.fr/" target="_blank"><span class="size1 marge2">pomset.fr</span></a> </p>
+          <a href="http://www.pomset.fr/" target="_blank"><span class="size2 marge2">pomset.fr</span></a> </p>
         </div>
       </div>
 
