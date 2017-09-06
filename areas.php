@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <img src="img/areas/A_AREAS.png" class="img-responsive" alt="work"/>
-          <h2 class="trait text-noir ecart1">La <strong>city AREAS</strong> pour les travailleurs non salariés</h2>
+          <h2 class="trait text-noir ecart1">La <strong>City AREAS</strong> pour les travailleurs non salariés</h2>
 
           <h3 class="text-noir ecart2"><strong>LA DEMANDE</strong></h3>
           <p class="text-noir">Communiquer sur les produits prévoyance, auprès des TNS.</p>

@@ -17,13 +17,13 @@
           <img src="img/oie/A_OIE.png" class="img-responsive" alt="work"/>
           <h2 class="trait text-noir ecart1">L'oie veut un <span class="bold">rapport annuel</span> innovant et adapté à tous</h2>
 
-          <h3 class="text-noir ecart2"><strong>LA DEMANDE</strong></h3>
+          <h3 class="text-noir ecart2"><span class="bold">LA DEMANDE</span></h3>
           <p class="text-noir">Distribuer le rapport annuel aux 180 pays délégués lors de leur Assemblée Générale mais aussi toucher un public plus large.</p>
 
-          <h3 class="text-noir ecart2"><strong>L'OBJECTIF</strong></h3>
+          <h3 class="text-noir ecart2"><span class="bold">L'OBJECTIF</span></h3>
           <p class="text-noir">Etre ludique, fédérateur et informatif sur un sujet parfois compliqué.  </p>
 
-          <h3 class="ecart2"><strong>NOTRE REPONSE</strong></h3>
+          <h3 class="ecart2"><span class="bold">NOTRE REPONSE</span></h3>
           <p>Nous avons proposé un concept clair et moderne, adapté à leur caractère institutionnel, transposables sur des supports innovants intégrant édition et digital, en 3 langues (FR/ESP/ENG). </p>
           <ul>
             <li>Rapport annuel de 56 pages</li>
@@ -148,17 +148,21 @@
             <p class="text-noir"><strong>Téléphone: </strong><br>  (+33) 1 47 58 14 31<br> <br></p>
           </div>
           <div class="col-lg-9 col-xs-12">
-            <form>
+
+                        <?php echo $_POST['valeur'];
+                        ?>
+            <!--debut formulaire-->
+            <form method="POST" action="">
               <div class="row">
                 <div class="col-md-6 col-xs-12">
                   <div class="form-group">
                     <label for="exampleInputEmail2">Nom</label>
-                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Jean">
+                    <input type="text" class="form-control" name="nom" id="exampleInputName1" placeholder="Jean">
                   </div>
                 </div>
                 <div class="col-md-6 col-xs-12">
                   <label for="exampleInputEmail2">Prénom</label>
-                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Durant">
+                  <input type="text" class="form-control" name="prenom" id="exampleInputName2" placeholder="Durant">
                 </div>
               </div>
 
@@ -166,7 +170,7 @@
                 <div class="col-xs-12">
                   <div class="form-group">
                     <label for="exampleInputEmail2">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jean.durant@example.com">
+                    <input type="email" class="form-control" name="email" id="exampleInputEmail2" placeholder="jean.durant@example.com">
                   </div>
                 </div>
               </div>
@@ -174,7 +178,7 @@
                 <div class="col-xs-12">
                   <div class="form-group">
                     <label for="exampleInputEmail2">Objet</label>
-                    <input type="text" class="form-control" id="exampleInputObjet" placeholder="demande de devis, infos diverses, etc.">
+                    <input type="text" class="form-control" name="objet" id="exampleInputObjet" placeholder="demande de devis, infos diverses, etc.">
                   </div>
                 </div>
               </div>
@@ -182,7 +186,7 @@
                 <div class="col-xs-12">
                   <div class="form-group">
                     <label for="exampleInputEmail2">Message</label>
-                    <textarea class="form-control message" rows="6" cols="60" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
+                    <textarea class="form-control message" rows="6" cols="60" name="message" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
 
                   </div>
                 </div>
@@ -193,6 +197,10 @@
               </div>
 
             </form>
+
+
+
+            <!--fin formulaire-->
           </div>
         </div>
 

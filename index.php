@@ -36,16 +36,20 @@
         </div>
 
 
-        <div class="row">
-          <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
-            <a href="oie.php"><button type="button" class="btn btn2">une idée 360</button></a>
-            <a href="areas.php"><button type="button" class="btn btn5">une idée performante</button></a>
+        
+          <div class="row">
+
+              <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
+                <a href="oie.php"><button type="button" class="btn btn2">une idée 360</button></a>
+                <a href="areas.php"><button type="button" class=" btn btn5">une idée performante</button></a>
+              </div>
+              <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
+                <a href="adp.php"><button type="button" class="btn btn2 btn5">une idée lab</button></a>
+                <a href="aviva.php"><button type="button" class="btn btn5 ">une idée génératrice</button></a>
+              </div>
+
           </div>
-          <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
-            <a href="adp.php"><button type="button" class="btn btn2 btn5">une idée lab</button></a>
-            <a href="aviva.php"><button type="button" class="btn btn5 ">une idée génératrice</button></a>
-          </div>
-        </div>
+
 
 
         <div class="col-lg-3 col-lg-offset-1 col-xs-3 col-xs-offset-1 quatrieme-titre quatrieme-titre-bis">
