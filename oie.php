@@ -149,44 +149,42 @@
           </div>
           <div class="col-lg-9 col-xs-12">
 
-                        <?php echo $_POST['valeur'];
-                        ?>
             <!--debut formulaire-->
-            <form method="POST" action="">
+            <form method="POST" action="mailer.php">
               <div class="row">
                 <div class="col-md-6 col-xs-12">
                   <div class="form-group">
-                    <label for="exampleInputEmail2">Nom</label>
-                    <input type="text" class="form-control" name="nom" id="exampleInputName1" placeholder="Jean">
+                    <label for="nom">Nom</label>
+                    <input type="text" class="form-control" name="nom" id="nom" placeholder="Jean">
                   </div>
                 </div>
                 <div class="col-md-6 col-xs-12">
-                  <label for="exampleInputEmail2">Prénom</label>
-                  <input type="text" class="form-control" name="prenom" id="exampleInputName2" placeholder="Durant">
+                  <label for="prenom">Prénom</label>
+                  <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Durant">
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-xs-12">
                   <div class="form-group">
-                    <label for="exampleInputEmail2">Email</label>
-                    <input type="email" class="form-control" name="email" id="exampleInputEmail2" placeholder="jean.durant@example.com">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="jean.durant@example.com">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-xs-12">
                   <div class="form-group">
-                    <label for="exampleInputEmail2">Objet</label>
-                    <input type="text" class="form-control" name="objet" id="exampleInputObjet" placeholder="demande de devis, infos diverses, etc.">
+                    <label for="objet">Objet</label>
+                    <input type="text" class="form-control" name="objet" id="objet" placeholder="demande de devis, infos diverses, etc.">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-xs-12">
                   <div class="form-group">
-                    <label for="exampleInputEmail2">Message</label>
-                    <textarea class="form-control message" rows="6" cols="60" name="message" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
+                    <label for="message">Message</label>
+                    <textarea class="form-control message" id="message" rows="6" cols="60" name="message" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
 
                   </div>
                 </div>
