@@ -52,7 +52,7 @@
 
 
 
-        <div class="col-lg-4 col-lg-offset-1 col-xs-3 col-xs-offset-1 quatrieme-titre quatrieme-titre-bis">
+        <div class="col-lg-4 col-lg-offset-1 col-xs-4 col-sm-offset-1 quatrieme-titre quatrieme-titre-bis">
 
           <p class="texte size2">On garde le contact</p>
         </div>

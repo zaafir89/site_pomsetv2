@@ -8,9 +8,9 @@ html{
   background-size: cover;
   background-size: cover;
   background-repeat: repeat-x;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -110,7 +110,7 @@ a:hover{
 }
 
 .btn5{
-  margin-left: 4px;
+  margin-left: 0px !important;
 }
 
 @media screen and (max-width: 800px) {
@@ -135,6 +135,15 @@ a:hover{
 .container-fluid{
   padding-left: 0;
 }
+
+
+@media screen and (max-width: 400px) {
+  .font{
+    font-size: 10px;
+  }
+
+}
+
 
 @media screen and (max-width: 800px) {
   .contenu-gauche{
@@ -186,6 +195,14 @@ a:hover{
 @media screen and (min-width: 1500px) {
   .logo3{
     margin-left: 80px !important;
+
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+  .logo3{
+    margin-left: 70px !important;
 
   }
 
