@@ -20,12 +20,12 @@
   <div class="container content">
     <div class="contenu-gauche col-lg-6">
       <div class="logo logo1 logo3 font">
-        <a href="index.php"><img src="img/pomset/logo_pomset.png"></a>
+        <a href="index.php"><img src="img/pomset/new-logo2.png"></a>
       </div>
       <div class="row">
 
         <div class="col-lg-10 col-lg-offset-1 col-xs-offset-1 col-xs-10">
-          <h3 class="pacifico texte font">Agence de communication, mais pas que...</h3>
+          <h3 class="pacifico texte font">Tout commence par une idée...</h3>
         </div>
 
 

@@ -1,6 +1,6 @@
 html{
 
-  background: url("../img/main-pic2.jpg");
+  background: url("../img/droite2.jpg");
   width: 50%;
   height: 100%;
   background-position: right;
@@ -70,7 +70,7 @@ a:hover{
 }
 .contenu-gauche{
   position: fixed;
-  background: url("../img/pomset/backgroundg.png");
+  background: url("../img/gauche.png");
   width: 50%;
   height: 100%;
   background-position: left;
