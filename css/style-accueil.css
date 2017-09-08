@@ -27,9 +27,16 @@ p{
 }
 
 .font{
-  font-size: 28px;
+  font-size: 40px;
 }
 
+.font1{
+  font-size: 30px;
+}
+
+.font2{
+  font-size: 17px;
+}
 
 .logo{
   margin-top: 80px;
@@ -45,7 +52,7 @@ p{
 
 
 .deuxieme-titre{
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .troisieme-titre{
@@ -81,18 +88,20 @@ a:hover{
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   color: white;
-  border-radius: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  border-radius: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin: 25px;
 }
 .btn2{
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
   color: white;
-  border-radius: 10px;
-  padding-left: 67px;
-  padding-right: 67px;
+  border-radius: 6px;
+  padding-left: 62px;
+  padding-right: 62px;
   margin-left: 0px;
 }
 
@@ -130,7 +139,7 @@ a:hover{
 @media screen and (max-width: 800px) {
   .contenu-gauche{
     position: fixed;
-    background: url("../img/pomset/backgroundg.png");
+    background: url("../img/gauche.png");
     width: 100%;
     height: 100%;
     background-position: left;
@@ -147,7 +156,11 @@ a:hover{
   }
 
   .font{
-    font-size: 20px;
+    font-size: 35px;
+  }
+
+  .font1{
+    font-size: 25px;
   }
 
   .deuxieme-titre1{
