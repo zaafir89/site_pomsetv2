@@ -1,5 +1,9 @@
 <?php include'layout.php'; ?>
 
+<?php
+
+session_start(); ?>
+
 <div class="content-droit">
   <div class="container-">
 
@@ -135,7 +139,7 @@
     <div class="row">
       <div class="col-lg-offset-6 col-lg-6 col-xs-12">
         <div>
-          <h2 class="text-noir size2"><strong>Ce projet</strong>vous a plus ? Contactez-nous ! </h2>
+          <h2 class="text-noir size2"><strong>Ce projet </strong>vous a plus ? Contactez-nous ! </h2>
         </div>
 
         <div class="row">
@@ -150,53 +154,7 @@
           <div class="col-lg-9 col-xs-12">
 
             <!--debut formulaire-->
-            <form method="POST" action="mailer.php">
-              <div class="row">
-                <div class="col-md-6 col-xs-12">
-                  <div class="form-group">
-                    <label for="nom">Nom</label>
-                    <input type="text" class="form-control" name="nom" id="nom" placeholder="Jean">
-                  </div>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                  <label for="prenom">Prénom</label>
-                  <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Durant">
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="jean.durant@example.com">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="form-group">
-                    <label for="objet">Objet</label>
-                    <input type="text" class="form-control" name="objet" id="objet" placeholder="demande de devis, infos diverses, etc.">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control message" id="message" rows="6" cols="60" name="message" placeholder="Bonjour, je suis très intéréssé par..."></textarea>
-
-                  </div>
-                </div>
-                <div class="col-lg-offset-8 col-lg-4 col-sm-offset-8 col-sm-4 col-xs-offset-2 col-xs-9">
-                  <button type="submit" class="btn btn-envoyer right1">envoyer</button>
-                </div>
-
-              </div>
-
-            </form>
-
-
+            <?php include 'mailer.php' ?>
 
             <!--fin formulaire-->
           </div>

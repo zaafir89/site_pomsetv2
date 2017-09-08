@@ -50,7 +50,7 @@
           <p class="texte size1">On garde le contact</p>
         </div>
         <div class="col-lg-3 col-xs-3 quatrieme-titre">
-          <span class="social"><a href="https://fr-fr.facebook.com/agence.pomset" target="_blank"><img src="img/pomset/picto/fb.png" alt="picto document"></a></span>
+          <span class="social"><a href="https://www.facebook.com/PomsetAgence/" target="_blank"><img src="img/pomset/picto/fb.png" alt="picto document"></a></span>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <span class="social"><a href="http://www.linkedin.com/company/pomset-agence-de-communication-globale" target="_blank"><img src="img/pomset/picto/link3.png" alt="picto document" class="align-picto3"></a></span>
 
