@@ -53,7 +53,7 @@ if(isset($_POST) && !empty($_POST['nom'])
 && !empty($_POST['email'])
 && !empty($_POST['message']))
 {
-  $destinataire = 'jb.hallassou@gmail.com';
+  $destinataire = 'contact@pomset.fr';
   $header="MIME-Version: 1.0\r\n";
   $expediteur = "From:" .$_POST['prenom']. '.' . $_POST['nom'];
   $header.='Content-Type:text/html; charset="uft-8"'."\n";
@@ -65,7 +65,7 @@ if(isset($_POST) && !empty($_POST['nom'])
   $message='
 
 
-      Vous avez reçu un message du Formulaire de contact !
+      Vous avez reçu un nouveau message du Formulaire de contact !
 
         Prenom : ' . $_POST['prenom'] . '
 
