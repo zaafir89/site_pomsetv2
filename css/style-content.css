@@ -27,7 +27,7 @@
 @media screen and (max-width: 1200px) {
   .contenu-gauche{
     position: fixed;
-    background: url("../img/gauche.png");
+    background: url("../img/gauche2.png");
     width: 100%;
     height: 10% !important;
     background-position: left;
@@ -211,7 +211,7 @@ a:hover{
 }
 .contenu-gauche{
   position: fixed;
-  background: url("../img/gauche.png");
+  background: url("../img/gauche2.png");
   width: 45%;
   height: 100%;
   background-position: left;
