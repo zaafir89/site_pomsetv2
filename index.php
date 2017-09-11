@@ -64,11 +64,12 @@
         </div>
         <div class="col-lg-3 col-xs-3 quatrieme-titre">
           <a href="http://www.pomset.fr/" target="_blank"><span class="size2 marge2">pomset.fr</span></a> </p>
+
         </div>
       </div>
     </div>
-  </div>
-</div>
+      <a href="http://www.jbh-webcretion.com/">Jean-baptiste Hallassou</a>
+
 
 
 

@@ -59,7 +59,7 @@
           <a href="http://www.pomset.fr/" target="_blank"><span class="size2 marge2">pomset.fr</span></a> </p>
         </div>
       </div>
-
+      <a href="http://www.jbh-webcretion.com/">Jean-baptiste Hallassou</a>
     </div>
     <script src="js/bootstrap.min.js"> </script>
     <script src="js/script.js"> </script>
