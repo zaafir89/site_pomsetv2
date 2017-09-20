@@ -20,7 +20,7 @@
   <div class="container content">
     <div class="contenu-gauche col-lg-6">
       <div class="logo logo1 logo3 font">
-        <a href="index.php"><img src="img/pomset/new-logo2.png"></a>
+        <a href="index.php"><img src="img/pomset/logo_pomset1.png"></a>
       </div>
 
       <div class="row">
@@ -40,7 +40,7 @@
             <a href="areas.php"><button type="button" class="btn btn5"><span class="font2">une idée performante</span></button></a>
           </div>
           <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
-            <a href="adp.php"><button type="button" class="btn btn2 btn5"><span class="font2">une idée lab</span></button></a>
+            <a href="adp.php"><button type="button" class="btn btn7 btn5"><span class="font2">une idée sur-mesure</span></button></a>
             <a href="aviva.php"><button type="button" class="btn btn5 "><span class="font2">une idée génératrice</span></button></a>
           </div>
         </div>

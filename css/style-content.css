@@ -209,6 +209,11 @@ a:link{
 a:hover{
   color: #cdcb35;
 }
+
+.espace-form{
+  margin-bottom: 50px;
+}
+
 .contenu-gauche{
   position: fixed;
   background: url("../img/gauche2.png");
@@ -257,7 +262,15 @@ a:hover{
   margin-left: 0px !important;
 }
 
-
+.btn7{
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 0px;
+}
 
 .btn:hover{
   background: #cdcb35;

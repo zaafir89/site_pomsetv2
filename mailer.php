@@ -6,32 +6,17 @@
   <div class="row">
     <div class="col-md-6 col-xs-12">
       <div class="form-group">
-        <label for="prenom">Prénom</label>
-        <input type="text" required class="form-control" name="prenom" id="prenom" placeholder="Jean">
+        <label for="nom">Nom</label>
+        <input type="text" required class="form-control" name="nom" id="nom" placeholder="Jean Durant">
       </div>
     </div>
     <div class="col-md-6 col-xs-12">
-      <label for="nom">Nom</label>
-      <input type="text" required class="form-control" name="nom" id="nom" placeholder="Durant">
+      <label for="email">Email</label>
+      <input type="email" required class="form-control" name="email" id="email" placeholder="jean.durant@example.com">
+
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" required class="form-control" name="email" id="email" placeholder="jean.durant@example.com">
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="form-group">
-        <label for="objet">Objet</label>
-        <input type="text" required class="form-control" name="objet" id="objet" placeholder="demande de devis, infos diverses, etc.">
-      </div>
-    </div>
-  </div>
   <div class="row">
     <div class="col-xs-12">
       <div class="form-group">
@@ -48,14 +33,12 @@
 
 <?php
 if(isset($_POST) && !empty($_POST['nom'])
-&& !empty($_POST['prenom'])
-&& !empty($_POST['objet'])
 && !empty($_POST['email'])
 && !empty($_POST['message']))
 {
   $destinataire = 'contact@pomset.fr';
   $header="MIME-Version: 1.0\r\n";
-  $expediteur = "From:" .$_POST['prenom']. '.' . $_POST['nom'];
+  $expediteur = "From:" .$_POST['nom'];
   $header.='Content-Type:text/html; charset="uft-8"'."\n";
   $header.='Content-Transfer-Encoding: 8bit';
   $succes = 'Mail envoyé avec succès';
@@ -65,25 +48,23 @@ if(isset($_POST) && !empty($_POST['nom'])
   $message='
 
 
-      Vous avez reçu un nouveau message du Formulaire de contact !
+  Vous avez reçu un nouveau message du Formulaire de contact !
+  
 
-        Prenom : ' . $_POST['prenom'] . '
+  Nom: ' . $_POST['nom'] . '
 
-        Nom: ' . $_POST['nom'] . '
+  Email : ' . $_POST['email'] . '
 
-        Email : ' . $_POST['email'] . '
 
-        Objet : ' . $_POST['objet'] . '
+  Message: ' . $_POST['message'] . '
 
-        Message: ' . $_POST['message'] . '
-
-'
+  '
   ;
 
   $mail = mail($destinataire, "Nouveau message de news.pomset.fr", $message, $expediteur, $header);
 
 
-if($mail) echo $succes; else echo $echec;
+  if($mail) echo $succes; else echo $echec;
 }
 
 

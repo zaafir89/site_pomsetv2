@@ -145,7 +145,7 @@
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12">
           <div>
-            <h2 class="text-noir size2"><strong>Ce projet </strong>vous a plus ? Contactez-nous !</h2>
+            <h2 class="text-noir size2 espace-form"><strong>Ce projet </strong>vous a plus ? Contactez-nous !</h2>
           </div>
 
           <div class="row">
