@@ -62,7 +62,7 @@
 }
 
 .size2{
-  font-size: 20px;
+  font-size: 16px;
 
 }
 
@@ -90,7 +90,7 @@
   }
 
   .size2{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .ecart3{
@@ -150,8 +150,13 @@
   display: none;
 }
 
+::-moz-scrollbar{
+  display: none;
+}
+
 html {
   overflow: auto;
+
 }
 
 
