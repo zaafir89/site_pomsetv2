@@ -1,8 +1,6 @@
 <?php include'layout.php'; ?>
 
-<?php
 
-session_start(); ?>
 
 <div class="content-droit">
   <div class="container-">
@@ -13,7 +11,7 @@ session_start(); ?>
 
 
 
-    <a href="index.php" style="color:black;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+    <a href="index.php" style="color:black; font-size:30px;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
@@ -142,23 +140,13 @@ session_start(); ?>
           <h2 class="text-noir size2 espace-form"><strong>Ce projet </strong>vous a plus ? Contactez-nous ! </h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-3 col-xs-12">
-            <p class="text-noir">
-              <strong>Addresse :</strong> <br>
-              24 Rue Carle Hebert, <br>
-              92400 Courbevoie <br>
-            </p>
-            <p class="text-noir"><strong>Téléphone: </strong><br>  (+33) 1 47 58 14 31<br> <br></p>
-          </div>
-          <div class="col-lg-9 col-xs-12">
 
-            <!--debut formulaire-->
-            <?php include 'mailer.php' ?>
+          <!--debut formulaire-->
+          <?php include 'mailer.php'; ?>
 
-            <!--fin formulaire-->
-          </div>
-        </div>
+          <!--fin formulaire-->
+
+
 
       </div>
     </div>
