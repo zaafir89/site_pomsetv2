@@ -126,7 +126,7 @@
 
 
             <!--debut formulaire-->
-            <?php include 'mailer.php'; ?>
+            <?php include 'mailer.php' ?>
 
             <!--fin formulaire-->
 

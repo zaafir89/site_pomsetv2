@@ -25,7 +25,7 @@
     <div class="col-xs-12">
       <div class="form-group">
         <label for="message">Message</label>
-        <textarea class="form-control message" required id="message" rows="6" cols="60" name="message" placeholder="Bonjour, je suis intéressé par..."></textarea>
+        <textarea required class="form-control message" name="message" id="message" rows="6" cols="60" placeholder="Bonjour, je suis intéressé par..."></textarea>
 
       </div>
     </div>
@@ -54,48 +54,35 @@
 
 
   <?php
-  if(isset($_POST)
-  && !empty($_POST['nom'])
+  if(isset($_POST) && !empty($_POST['nom'])
   && !empty($_POST['email'])
   && !empty($_POST['message']))
   {
-    $destinataire = 'jb.hallassou@gmail.com';
+    $destinataire = 'contact@pomset.fr';
     $header="MIME-Version: 1.0\r\n";
-    $expediteur = "From:" . $_POST['nom'];
+    $expediteur = "From:" .$_POST['nom'];
     $header.='Content-Type:text/html; charset="uft-8"'."\n";
     $header.='Content-Transfer-Encoding: 8bit';
-    $succes = 'Mail envoyé avec succès';
     $echec = 'Echec envoi de mail';
     $probleme = 'Formulaire non soumis, veuillez complétez les champs manquants s\'il vous plaît';
-
     $message='
+        Vous avez reçu un nouveau message du Formulaire de contact !
+
+
+          Nom: ' . $_POST['nom'] . '
+
+          Email : ' . $_POST['email'] . '
 
 
 
-    Vous avez reçu un nouveau message du Formulaire de contact !
-
-
-
-    Nom: ' . $_POST['nom'] . '
-
-
-
-    Email : ' . $_POST['email'] . '
-
-
-
-    Message: ' . $_POST['message'] . '
-
-    '
+          Message: ' . $_POST['message'] . '
+  '
     ;
-
     $mail = mail($destinataire, "Nouveau message de news.pomset.fr", $message, $expediteur, $header);
-
-
-    if($mail) echo $succes; else echo $echec;
+  if($mail) echo '<div class="alert alert-success">
+  Mail envoyé avec succès !
+</div>'; else echo $echec;
   }
-
-
   ?>
 
   </html>
