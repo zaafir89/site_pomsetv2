@@ -41,10 +41,10 @@
 
 
   <div class="row footer">
-    <div class="col-sm-6 col-xs-12">
+    <div class="col-sm-8 col-xs-12">
       <p><strong>Adresse:</strong> 24-30 rue Carle Hébert, 92400 Courbevoie</p>
     </div>
-    <div class="col-sm-6 col-xs-12">
+    <div class="col-sm-4 col-xs-12">
       <p><strong>Téléphone:</strong> 01 47 58 61 14</p>  </div>
 
 
