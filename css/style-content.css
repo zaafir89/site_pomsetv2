@@ -215,8 +215,21 @@ a:hover{
   color: #cdcb35;
 }
 
+a.lien{
+  color: black;
+}
+
+.lien:hover{
+    color: #cdcb35;
+}
+
 .espace-form{
   margin-bottom: 50px;
+}
+
+.espace-lien{
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 .contenu-gauche{
@@ -298,7 +311,18 @@ a:hover{
 
 }
 
+.liens{
+  display: none;
+}
+@media screen and (max-width: 1200px) {
 
+  .liens{
+    display: inherit;
+
+
+  }
+
+}
 
 
 
@@ -492,6 +516,7 @@ a:hover{
   margin-right: 50px;
 }
 
+
 .bg{
 
   margin-top: 0px !important;
@@ -601,7 +626,15 @@ textarea {
   margin-top: 10%
 }
 
+@media screen and (max-width: 1200px) {
 
+  .marge4{
+    margin-left: 8%;
+
+
+  }
+
+}
 
 @media screen and (max-width: 600px) {
 
@@ -677,6 +710,10 @@ textarea {
 .marge3{
   margin-right:66px;
   margin-left: 50px;
+}
+
+.marge5{
+  margin-bottom: 40px;
 }
 
 .form-control{

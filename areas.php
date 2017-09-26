@@ -3,12 +3,26 @@
 <div class="content-droit">
   <div class="container-">
 
-    <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-      <p class="premier-titre">une idée performante / City AREAS pour les non salariés</p>
+    <a href="index.php" style="color:black; font-size:20px;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
+
+    <div class="liens">
+
+      <div class="row">
+        <div class="col-lg-offset-6 col-lg-6 col-xs-12 marge4 marge5">
+          <a class="lien" href="oie.php">une idée 360° |</a>
+          <a class="lien" href="adp.php">une idée sur mesure |</a>
+
+          <a class="lien" href="areas.php">une idée performante |</a>
+          <a class="lien" href="aviva.php">une idée génératrice </a>
+        </div>
+      </div>
     </div>
+<div class="row">
+  <div class="col-lg-offset-6 col-lg-6 col-xs-12 marge4">
+    <p class="premier-titre espace-lien"><strong>une idée performante / City AREAS pour les non salariés</strong></p>
+  </div>
+</div>
 
-
-    <a href="index.php" style="color:black; font-size:30px;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
     <div class="container">
 
       <div class="row">
@@ -115,31 +129,7 @@
         </div>
       </div>
     </div>
-    <div class="container padi">
-      <div class="row">
-        <div class="col-lg-offset-6 col-lg-6 col-xs-12">
-          <div class="col-lg-6 col-xs-12 texte-couleur">
-            <h3 class="text-noir"><strong>Les chiffres</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor2">DOLOR</span></strong></h2>
-            <p class="text-noir">Lorem ipsum sit mata</p>
-          </div>
 
-
-          <div class="col-lg-6 col-xs-12">
-            <h3 class="texte"><strong>test</strong></h3>
-            <h2 class="text-noir"><strong><span class="textcolor2">45 MIN</span></strong></h2>
-            <p class="text-noir">Lorem ipsum sit mata</p>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-lg-offset-6 col-lg-3 col-xs-12">
-          <span class="separation separation1"></span>
-        </div>
-      </div>
-
-    </div>
     <div class="container padi">
 
       <div class="row">
