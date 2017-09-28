@@ -127,9 +127,9 @@ a:hover{
   margin-left: 0px;
 }
 
-@media screen and (max-width: 800px) {
-  .btn5{
-
+@media screen and  (min-width: 540px) and (max-width: 768px) {
+  .btn8{
+    margin-left: 15px !important;
   }
 
 }
@@ -322,4 +322,9 @@ a:hover{
 
 .marge{
   margin-top: 100px;
+}
+
+
+#en-cours:btn{
+  background-color: #cdcb35;
 }
