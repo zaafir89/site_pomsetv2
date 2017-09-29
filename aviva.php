@@ -1,6 +1,7 @@
-<?php include'layout.php'; ?>
+<?php $nav = 'aviva'; ?>
 
-<div id="en-cours">
+
+<?php include'layout.php'; ?>
 
 
 <div class="content-droit">
@@ -11,11 +12,11 @@
 
       <div class="row">
         <div class="col-lg-offset-6 col-lg-6 col-xs-12 marge4 marge5">
-          <a class="lien" id="en-cours" href="oie.php">une idée 360° |</a>
-          <a class="lien" id="en-cours" href="adp.php">une idée sur mesure |</a>
+          <a class="lien" id="" href="oie.php">une idée 360° |</a>
+          <a class="lien" id="" href="adp.php">une idée sur mesure |</a>
 
-          <a class="lien" id="en-cours" href="areas.php">une idée performante |</a>
-          <a class="lien" id="en-cours" href="aviva.php">une idée génératrice </a>
+          <a class="lien" id="" href="areas.php">une idée performante |</a>
+          <a class="lien" id="" href="aviva.php">une idée génératrice </a>
         </div>
       </div>
     </div>
@@ -121,5 +122,4 @@
   </div>
 
 
-</div>
 </div>

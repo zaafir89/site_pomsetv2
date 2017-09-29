@@ -37,12 +37,12 @@
 
         <div class="row">
           <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
-            <a href="oie.php"><button type="button" id="en-cours" class="btn btn2"><span class="font2">une idée 360°</span></button></a>
-            <a href="areas.php"><button type="button" id="en-cours" class="btn btn5"><span class="font2">une idée performante</span></button></a>
+            <a href="oie.php"><button type="button" <?php if ($nav == 'oie') { echo 'id="en-cours"';} ?> class="btn btn2"><span class="font2">une idée 360°</span></button></a>
+            <a href="areas.php"><button type="button" <?php if ($nav == 'areas') { echo 'id="en-cours"';} ?>  class="btn btn5"><span class="font2">une idée performante</span></button></a>
           </div>
           <div class="col-lg-4 col-xs-offset-1 col-md-6 col-xs-12">
-            <a href="adp.php"><button type="button" id="en-cours" class="btn btn7 btn5"><span class="font2">une idée sur-mesure</span></button></a>
-            <a href="aviva.php"><button type="button" id="en-cours" class="btn btn5 "><span class="font2">une idée génératrice</span></button></a>
+            <a href="adp.php"><button type="button" <?php if ($nav == 'adp') { echo 'id="en-cours"';} ?>  class="btn btn7 btn5"><span class="font2">une idée sur-mesure</span></button></a>
+            <a href="aviva.php"><button type="button" <?php if ($nav == 'aviva') { echo 'id="en-cours"';} ?>  class="btn btn5 "><span class="font2">une idée génératrice</span></button></a>
           </div>
         </div>
 
