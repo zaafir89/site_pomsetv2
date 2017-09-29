@@ -311,6 +311,11 @@ a.lien{
 
 }
 
+#liensResponsive{
+  font-size: 30px;
+  color: solid black;
+}
+
 .liens{
   display: none;
 }
@@ -318,6 +323,7 @@ a.lien{
 
   .liens{
     display: inherit;
+
 
 
   }

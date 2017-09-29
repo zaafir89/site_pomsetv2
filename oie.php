@@ -1,5 +1,7 @@
 <?php $nav = 'oie'; ?>
 
+<?php $navResponsive = 'oie'; ?>
+
 <?php include'layout.php'; ?>
 
 
@@ -10,20 +12,8 @@
   <div class="content-droit">
     <a href="index.php" style="color:black; font-size:20px;"<button type="submit" class="btn3 btn-close btn-close1 right "> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></a>
 
-    <div class="liens">
+    <?php include 'nav-responsive.php' ?>
 
-      <div class="row">
-        <div class="col-lg-offset-6 col-lg-6 col-xs-12 marge4 marge5">
-          <a class="lien" id="" href="oie.php">une idée 360° |</a>
-          <a class="lien" id="" href="adp.php">une idée sur mesure |</a>
-
-          <a class="lien" id="" href="areas.php">une idée performante |</a>
-          <a class="lien" id="" href="aviva.php">une idée génératrice </a>
-
-        </div>
-
-      </div>
-    </div>
     <div class="row">
       <div class="col-lg-offset-6 col-lg-6 col-xs-12 marge4">
         <p class="premier-titre espace-lien"><strong>une idée 360°/ OIE rapport annuel 2017</strong></p>
